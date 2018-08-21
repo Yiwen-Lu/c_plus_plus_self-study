@@ -5,7 +5,7 @@ int main() {
 	std::cout << "Gebe eine (postive) Zahl ein: " << std::endl;
 	std::cin >> n;
 
-	if (n == 0) {
+	if (n <= 0) {
 		std::cerr << "Die Zahl soll postiv sein!" << std::endl;
 		return 1;
 	} else if (n == 1) {
