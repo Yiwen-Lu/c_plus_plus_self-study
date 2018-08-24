@@ -3,6 +3,7 @@
 #include <ctime>
 
 int main() {
+	// Ref: http://www.cplusplus.com/reference/cstdlib/rand/
 	int true_num, guess_num;
 	srand (time(NULL)); // set random seed
 	true_num = rand() % 6 + 1; // set the range
