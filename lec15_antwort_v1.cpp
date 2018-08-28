@@ -25,4 +25,5 @@ int main() {
 	std::cout << "Zu deiner Frage \"" << Frage << 
 		"\" wurde folgende Antwort ausgesucht: " << 
 		Antwortmoeglichkeit[RandIndex] << std::endl;
+	return 0;
 }
