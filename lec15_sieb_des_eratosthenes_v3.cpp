@@ -1,8 +1,5 @@
 #include <iostream>
 #include <queue>  // Version 3 using queue instead of vector
-#include <string>
-#include <sstream>
-#include <iterator>
 #include <cmath>
 
 int main() {
