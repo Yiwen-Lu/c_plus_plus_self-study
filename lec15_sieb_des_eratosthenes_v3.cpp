@@ -9,14 +9,14 @@ int main() {
 	std::cin >> max_n;
 	// check the input:
 	// Ref: https://stackoverflow.com/questions/18728754/checking-input-value-is-an-integer
-    while(std::cin.fail() || max_n < 2) {
-        std::cout << "Invalid number, please try again: " << std::endl;
-        std::cin.clear();
-        std::cin.ignore(256,'\n');
-        std::cin >> max_n;
-    }
+	while(std::cin.fail() || max_n < 2) {
+        	std::cout << "Invalid number, please try again: " << std::endl;
+        	std::cin.clear();
+        	std::cin.ignore(256,'\n');
+        	std::cin >> max_n;
+	}
 
- 	std::queue<int> to_check;
+	std::queue<int> to_check;
 	for (int n=2; n<=max_n; n++) to_check.push(n);
 
 	int p = 0;
