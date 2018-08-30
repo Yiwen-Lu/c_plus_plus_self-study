@@ -29,8 +29,8 @@ int main() {
 				v_prime.erase(v_prime.begin() + i);
 
 				//std::cout << "current v_prime: ";
-    			//std::copy(v_prime.begin(),v_prime.end(),std::ostream_iterator<int>(std::cout, " " ));
-    			//std::cout << std::endl;
+				//std::copy(v_prime.begin(),v_prime.end(),std::ostream_iterator<int>(std::cout, " " ));
+				//std::cout << std::endl;
 
 			} else {
 				i++;
