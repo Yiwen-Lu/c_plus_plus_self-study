@@ -39,12 +39,14 @@ int main() {
 			}
 		}	
 		to_check = pending;
-		//std::cout << "pending: ";
-		//while (!pending.empty()) {
-		//	std::cout << ' ' << pending.front();
-		//	pending.pop();
-		//}
-		//std::cout << std::endl;
+		/*
+		std::cout << "pending: ";
+		while (!pending.empty()) {
+			std::cout << ' ' << pending.front();
+			pending.pop();
+		}
+		std::cout << std::endl;
+		*/
 	}
 
 	std::cout << "All the prime numbers:";
